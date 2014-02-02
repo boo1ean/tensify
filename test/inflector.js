@@ -61,4 +61,13 @@ describe('Inflector', function() {
 			tensify('burn').past.should.be.equal('burned');
 		});
 	});
+
+	describe('Alreay past verbs', function() {
+		it('Should not be changed', function() {
+			tensify('fixed').past.should.be.equal('fixed');
+			tensify('mixed').past.should.be.equal('mixed');
+			tensify('compiled').past.should.be.equal('compiled');
+			tensify('stored').past.should.be.equal('stored');
+		});
+	});
 });

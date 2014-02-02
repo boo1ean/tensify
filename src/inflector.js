@@ -44,9 +44,20 @@ var ends_with_two_vowels_plus_a_consonant = function(verb) {
 		&& symbols.is_vovel(verb[last - 2]);
 };
 
-// Add ed ending if needed
+var edded = [
+	'embed'
+];
+
+var already_in_past = function(verb) {
+	return verb.slice(-2) === 'ed'
+		&& edded.indexOf(verb) === -1;
+};
+
 var edify = function(verb) {
 	switch (true) {
+		case already_in_past(verb):
+			return verb;
+
 		case ends_with_c(verb):
 			return verb + 'ked';
 
