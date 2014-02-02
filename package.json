@@ -1,0 +1,38 @@
+{
+  "name": "past-tense",
+  "version": "0.0.1",
+  "description": "Convert verbs from present to past tense",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "~3.1.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/boo1ean/past-tense.git"
+  },
+  "keywords": [
+    "verbs",
+    "past",
+    "present",
+    "tense",
+    "tenses",
+    "inflector",
+    "inflect"
+  ],
+  "author": "Egor Gumenyuk <boo1ean0807@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boo1ean/past-tense/issues"
+  },
+  "homepage": "https://github.com/boo1ean/past-tense"
+}
