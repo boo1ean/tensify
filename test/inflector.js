@@ -68,6 +68,8 @@ describe('Inflector', function() {
 			tensify('mixed').past.should.be.equal('mixed');
 			tensify('compiled').past.should.be.equal('compiled');
 			tensify('stored').past.should.be.equal('stored');
+			tensify('did').past.should.be.equal('did');
+			tensify('done').past.should.be.equal('did');
 		});
 	});
 });

@@ -183,7 +183,7 @@ var irregular_verbs = [
 var find = function(verb) {
 	for (var i in irregular_verbs) {
 		if (irregular_verbs[i].indexOf(verb) !== -1) {
-			return irregular_verbs[i].splice(-2);
+			return irregular_verbs[i].slice(-2);
 		}
 	}
 

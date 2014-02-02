@@ -17,6 +17,9 @@ tensify('do').past;
 // 'done'
 tensify('do').past_participle;
 
+// 'did'
+tensify('done').past;
+
 // 'made'
 tensify('make').past;
 
