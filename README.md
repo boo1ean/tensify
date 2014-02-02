@@ -1,4 +1,36 @@
-past-tense
-==========
+## tensify 
 
-Convert verbs from present to past tense
+Get different tense of verb
+
+## Installation
+
+	npm install tensify
+
+## Usage
+
+```javascript
+var tensify = require('tensify');
+
+// 'did'
+tensify('do').past;
+
+// 'done'
+tensify('do').past_participle;
+
+// 'made'
+tensify('make').past;
+
+// 'committed'
+tensify('commit').past;
+
+// 'mimicked'
+tensify('mimic').past;
+
+// And so on..
+```
+
+Actually it could fail sometimes... :D
+
+## License
+
+MIT
