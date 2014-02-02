@@ -1,4 +1,4 @@
-## tensify 
+## tensify [![Build Status](https://travis-ci.org/boo1ean/tensify.png?branch=master)](https://travis-ci.org/boo1ean/tensify)
 
 Get different tense of verb
 
