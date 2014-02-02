@@ -1,5 +1,5 @@
 {
-  "name": "past-tense",
+  "name": "tensify",
   "version": "0.0.1",
   "description": "Convert verbs from present to past tense",
   "main": "index.js",
@@ -7,7 +7,9 @@
     "test": "test"
   },
   "dependencies": {
-    "should": "~3.1.2"
+    "should": "~3.1.2",
+    "natural": "~0.1.25",
+    "symbols": "0.0.2"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
@@ -18,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/boo1ean/past-tense.git"
+    "url": "git://github.com/boo1ean/tensify.git"
   },
   "keywords": [
     "verbs",
@@ -32,7 +34,7 @@
   "author": "Egor Gumenyuk <boo1ean0807@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/boo1ean/past-tense/issues"
+    "url": "https://github.com/boo1ean/tensify/issues"
   },
-  "homepage": "https://github.com/boo1ean/past-tense"
+  "homepage": "https://github.com/boo1ean/tensify"
 }
