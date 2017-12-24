@@ -16,8 +16,8 @@ var ends_with_a_single_vowel_plus_a_consonant_and_not_wx = function(verb) {
 	var last = verb.length - 1;
 
 	return symbols.is_consonant(verb[last])
-		&& symbols.is_vovel(verb[last - 1])
-		&& !symbols.is_vovel(verb[last - 2])
+		&& symbols.is_vowel(verb[last - 1])
+		&& !symbols.is_vowel(verb[last - 2])
 		&& verb[last] !== 'w'
 		&& verb[last] !== 'x';
 };
@@ -40,8 +40,8 @@ var ends_with_two_vowels_plus_a_consonant = function(verb) {
 	var last = verb.length - 1;
 
 	return symbols.is_consonant(verb[last])
-		&& symbols.is_vovel(verb[last - 1])
-		&& symbols.is_vovel(verb[last - 2]);
+		&& symbols.is_vowel(verb[last - 1])
+		&& symbols.is_vowel(verb[last - 2]);
 };
 
 var edded = [

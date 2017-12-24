@@ -14,6 +14,8 @@ describe('Inflector', function() {
 			tensify('sob').past.should.be.equal('sobbed');
 			tensify('embed').past.should.be.equal('embedded');
 			tensify('trigger').past.should.be.equal('triggered');
+			tensify('spray').past.should.be.equal('sprayed');
+			tensify('display').past.should.be.equal('displayed');
 		});
 
 		it('Should handle ends_with_c', function() {

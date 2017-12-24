@@ -1,6 +1,6 @@
 {
   "name": "tensify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert verbs from present to past tense",
   "main": "src/inflector.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "natural": "~0.1.25",
-    "symbols": "0.0.2"
+    "symbols": "0.0.6"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
