@@ -2,6 +2,7 @@
 // Last - 1 element - past simple
 // All elements before are present
 var irregular_verbs = [
+	['are', 'were', 'been'],
 	['awake', 'awoke', 'awoken'],
 	['bear', 'bore', 'born'],
 	['beat', 'beat', 'beat'],
@@ -67,6 +68,7 @@ var irregular_verbs = [
 	['hit', 'hit', 'hit'],
 	['hold', 'held', 'held'],
 	['hurt', 'hurt', 'hurt'],
+	['is', 'was', 'been'],
 	['keep', 'kept', 'kept'],
 	['kneel', 'knelt', 'knelt'],
 	['knit', 'knit', 'knit'],
