@@ -2,6 +2,7 @@
 // Last - 1 element - past simple
 // All elements before are present
 var irregular_verbs = [
+	['am', 'was', 'been'],
 	['are', 'were', 'been'],
 	['awake', 'awoke', 'awoken'],
 	['bear', 'bore', 'born'],
