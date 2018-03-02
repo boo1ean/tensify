@@ -64,6 +64,7 @@ var irregular_verbs = [
 	['grind', 'ground', 'ground'],
 	['grow', 'grew', 'grown'],
 	['hang', 'hung', 'hung'],
+	['have', 'had', 'had'],
 	['hear', 'heard', 'heard'],
 	['hide', 'hid', 'hidden'],
 	['hit', 'hit', 'hit'],
