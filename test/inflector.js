@@ -47,6 +47,8 @@ describe('Inflector', function() {
 
 	describe('Irregular verbs inflection', function() {
 		it('Should return correct past tense form of irregular verbs', function() {
+			tensify('be').past.should.be.equal('were');
+			tensify('be').past_participle.should.be.equal('been');
 			tensify('bend').past.should.be.equal('bent');
 			tensify('beset').past.should.be.equal('beset');
 			tensify('bet').past.should.be.equal('bet');
