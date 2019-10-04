@@ -5,6 +5,7 @@ var irregular_verbs = [
 	['am', 'was', 'been'],
 	['are', 'were', 'been'],
 	['awake', 'awoke', 'awoken'],
+	['be', 'were', 'been'],
 	['bear', 'bore', 'born'],
 	['beat', 'beat', 'beat'],
 	['become', 'became', 'become'],
