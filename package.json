@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "Convert verbs from present to past tense",
   "main": "src/inflector.js",
+  "types": "index.d.ts",
   "directories": {
     "test": "test"
   },
